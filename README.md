@@ -64,5 +64,6 @@ html(lang="en")
 This project is using the Pug Gulp i18n package. Content can be found within the `locales/` directory. Each `.yml|.json` file represents a new locale that will be built into the distribution folder. Currently, this project uses `.yml` but this can be changed to `.json` based on preference. 
 
 Resource strings are namespaced with `$t` - this is configurable within the templates gulp task
+
 `#{$t.hello}`
 
