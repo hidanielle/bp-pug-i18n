@@ -1,0 +1,14 @@
+.skip-to {
+  @extend %a11y-hidden;
+  font-weight: bold;
+  background-color: #000000;
+  text-decoration: none;
+  z-index: 9999;
+  padding: 1em;
+  &:focus {
+    @extend %a11y-visible;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+}

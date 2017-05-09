@@ -5,8 +5,8 @@ module.exports = {
   nodeDir: './node_modules/',
   cleanFiles: './dist/**/*',
   styles: {
-    main: 'scss/style.scss',
-    src: 'scss/**/*.scss',
+    main: 'scss/style.+(scss|sass)',
+    src: 'scss/**/*.+(scss|sass)',
     dest: './dist/css',
     name: 'style.css',
   },

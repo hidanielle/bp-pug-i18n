@@ -1,0 +1,13 @@
+.is-a11y{
+  &-hidden {
+    @extend %a11y-hidden;
+    &-show {
+      // used to over ride .is-a11y-hidden styles
+      @extend %a11y-visible;
+    }
+  }
+}
+
+.sr-only {
+  @extend %a11y-hidden;
+}

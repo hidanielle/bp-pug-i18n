@@ -1,3 +1,30 @@
-body {
-  color: green;
-}
+@import "settings/global";
+@import "settings/colors";
+
+@import "tools/mixins";
+@import "tools/functions";
+@import "tools/placeholders";
+
+@import "generic/normalize";
+@import "generic/box-sizing";
+@import "generic/reset";
+@import "generic/shared";
+
+@import "elements/page";
+@import "elements/headings";
+@import "elements/links";
+@import "elements/lists";
+@import "elements/images";
+
+@import "objects/wrappers";
+@import "objects/media";
+@import "objects/breakout";
+@import "objects/clear";
+
+@import "components/buttons";
+@import "components/skip-links";
+
+@import "trumps/links";
+@import "trumps/widths";
+@import "trumps/text";
+@import "trumps/a11y";

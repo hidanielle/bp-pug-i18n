@@ -1,0 +1,22 @@
+.media {
+  display: table;
+  width: 100%;
+}
+
+.media-img,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media-img {
+  padding-right: $base-spacing-unit;
+  img {
+    display: block;
+    max-width: none;
+  }
+}
+
+.media-body {
+  width: 100%;
+}
