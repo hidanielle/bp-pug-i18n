@@ -9,7 +9,7 @@ Pug boilerplate with localization currently using Gulp
 
 3. Navigate to the new directory's parent directory via command line.
 
-4. Clone the **grunt-boilerplate** repo into your new directory:
+4. Clone the **boilerplate** repo into your new directory:
 
         git clone https://github.com/hidanielle/bp-pug-i18n.git new-project-dir
 
